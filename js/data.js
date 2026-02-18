@@ -54,4 +54,35 @@ const trend=[
     "image": "../img/trend-6.jpg"
   }
 ]
-const topviews=[]
+const Popularshows=[
+  {
+    "id": 1,
+    "title": "Sen to Chihiro no Kamikakushi",
+    "image": "../img/popular-1.jpg"
+  },
+  {
+    "id": 2,
+    "title": "Kizumonogatari III: Reiketsu-hen",
+    "image": "../img/popular-2.jpg"
+  },
+  {
+    "id": 3,
+    "title": "Shirogane Tamashii-hen Kouhan-sen",
+    "image": "../img/popular-3.jpg"
+  },
+  {
+    "id": 4,
+    "title": "Rurouni Kenshin: Meiji Kenkaku Romantan",
+    "image": "../img/popular-4.jpg"
+  },
+  {
+    "id": 5,
+    "title": "Mushishi Zoku Shou 2nd Season",
+    "image": "../img/popular-5.jpg"
+  },
+  {
+    "id": 6,
+    "title": "Monogatari Series: Second Season",
+    "image": "../img/popular-6.jpg"
+  }
+]
