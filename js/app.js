@@ -1,14 +1,11 @@
 let trendDIV=document.getElementById('trendDIV')
-fetch('data.js')
-.then(res => res.json())
-.then(data=>
-    trenddata=data
-)
-trendata.map((item)=>{
+
+trend.map((item)=>{
     trendDIV.innerHTML+=`
-    <div class="">
-    
-    
+    <div class="card  w-full md:w-[25%]">
+    <img src="${item.image}"  class="h-[50vh] object-cover bg-center" />
+    <p></p>
+    <h3 class="font-bold  text-2xl">${item.title} </h3>
     </div>
     `
 })
