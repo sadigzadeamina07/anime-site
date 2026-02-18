@@ -255,6 +255,9 @@
   .h-\[80vh\] {
     height: 80vh;
   }
+  .h-\[90vh\] {
+    height: 90vh;
+  }
   .h-\[100vh\] {
     height: 100vh;
   }
@@ -287,6 +290,9 @@
   }
   .justify-between {
     justify-content: space-between;
+  }
+  .justify-center {
+    justify-content: center;
   }
   .gap-1 {
     gap: calc(var(--spacing) * 1);
@@ -327,6 +333,9 @@
   }
   .bg-center {
     background-position: center;
+  }
+  .bg-top {
+    background-position: top;
   }
   .object-cover {
     object-fit: cover;
@@ -425,6 +434,11 @@
       display: none;
     }
   }
+  .md\:h-\[50vh\] {
+    @media (width >= 48rem) {
+      height: 50vh;
+    }
+  }
   .md\:h-\[80vh\] {
     @media (width >= 48rem) {
       height: 80vh;
@@ -443,6 +457,11 @@
   .md\:w-\[25\%\] {
     @media (width >= 48rem) {
       width: 25%;
+    }
+  }
+  .md\:w-\[27\%\] {
+    @media (width >= 48rem) {
+      width: 27%;
     }
   }
   .md\:w-\[30\%\] {
@@ -465,6 +484,11 @@
       width: 40%;
     }
   }
+  .md\:w-fit {
+    @media (width >= 48rem) {
+      width: fit-content;
+    }
+  }
   .md\:grid-cols-3 {
     @media (width >= 48rem) {
       grid-template-columns: repeat(3, minmax(0, 1fr));
@@ -483,6 +507,16 @@
   .md\:items-center {
     @media (width >= 48rem) {
       align-items: center;
+    }
+  }
+  .md\:items-start {
+    @media (width >= 48rem) {
+      align-items: flex-start;
+    }
+  }
+  .md\:justify-start {
+    @media (width >= 48rem) {
+      justify-content: flex-start;
     }
   }
   .md\:gap-10 {
