@@ -86,3 +86,30 @@ const Popularshows=[
     "image": "../img/popular-6.jpg"
   }
 ]
+const Topviews = [
+  {
+    id: 1,
+    title: "Boruto: Naruto Next Generations",
+    image: "../img/tv-1.jpg"
+  },
+  {
+    id: 2,
+    title: "The Seven Deadly Sins: Wrath of the Gods",
+    image: "../img/tv-2.jpg"
+  },
+  {
+    id: 3,
+    title: "Sword Art Online: Alicization War of Underworld",
+       image: "../img/tv-3.jpg"
+  },
+  {
+    id: 4,
+    title: "Fate/stay night: Heaven's Feel I. Presage Flower",
+    image: "../img/tv-4.jpg"
+  },
+  {
+    id: 5,
+    title: "Fate/stay night: Unlimited Blade Works",
+    image: "../img/tv-5.jpg"
+  }
+];
