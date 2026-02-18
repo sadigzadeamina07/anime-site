@@ -49,17 +49,25 @@
            <button class="bg-white text-red-500 px-[10px] py-[5px]">Adventure</button>
                 <h2 class="text-3xl font-bold  mt-[35px] mb-[10px]">Fate / Stay Night: Unlimited Blade Works</h2>
                 <p class="mb-[35px]">After 30 days of travel across the world...</p>
-                <button class="bg-[#e53637]  p-5">Watch Now</button>
+                <button class="bg-[#e53637]   text-lg rounded-xl px-5 py-3">Watch Now</button>
                 </div>
      
             </div>
         </div>
         <div class="container mx-auto py-[60px]">
             <div class="grid grid-cols-1 md:grid-cols-3 ">
-   <div class="flex justify-between col-span-2">
+                <div class="col-span-2">
+   <div class="flex justify-between ">
                 <h3 class="font-bold uppercase text-lg ">Trending Now</h3>
                 <a href="">View All →</a>
+
             </div>
+            <div class="grid md:grid-cols-3 grid-cols-1" >
+                <div id="trendDIV"></div>
+            </div>
+         
+                </div>
+
             <div class="flex justify-between">
                 <h3 class="text-lg font-bold">Top Views</h3>
                 <ul class="flex gap-3 text-sm items-center">
@@ -70,9 +78,8 @@
                 </ul>
             </div>
             </div>
-         
-
         </div>
+
     </main>
     <footer class="bg-[#070720] py-[60px]">
         <div class="container mx-auto ">
@@ -95,6 +102,8 @@
             
         </div>
     </footer>
+    <script src="js/data.js"></script>
+    <script src="js/app.js"></script>
 </body>
 
 </html>
