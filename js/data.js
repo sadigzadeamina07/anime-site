@@ -113,3 +113,67 @@ const Topviews = [
     image: "../img/tv-5.jpg"
   }
 ];
+const Recentlyaddedshows = [
+  {
+    id: 1,
+    title: "Great Teacher Onizuka",
+    image: "../img/recent-1.jpg"
+  },
+  {
+    id: 2,
+    title: "Fate/stay night Movie: Heaven's Feel - II. Lost",
+    image: "../img/recent-2.jpg"
+  },
+  {
+    id: 3,
+    title: "Mushishi Zoku Shou: Suzu no Shizuku",
+       image: "../img/recent-3.jpg"
+  },
+  {
+    id: 4,
+    title: "Fate/Zero 2nd Season",
+    image: "../img/recent-4.jpg"
+  },
+  {
+    id: 5,
+    title: "Kizumonogatari II: Nekket su-hen",
+    image: "../img/recent-5.jpg"
+  },
+    {
+    id: 6,
+    title: "The Seven Deadly Sins: Wrath of the Gods",
+    image: "../img/recent-6.jpg"
+  }
+];
+const LiveAction = [
+  {
+    id: 1,
+    title: "Shouwa Genroku Rakugo Shinjuu",
+    image: "../img/live-1.jpg"
+  },
+  {
+    id: 2,
+    title: "Mushishi Zoku Shou 2nd Season",
+    image: "../img/live-2.jpg"
+  },
+  {
+    id: 3,
+    title: "Mushishi Zoku Shou: Suzu no Shizuku",
+       image: "../img/live-3.jpg"
+  },
+  {
+    id: 4,
+    title: "The Seven Deadly Sins: Wrath of the Gods",
+    image: "../img/live-4.jpg"
+  },
+  {
+    id: 5,
+    title: "Fate/stay night Movie: Heaven's Feel - II. Lost",
+    image: "../img/live-5.jpg"
+  },
+    {
+    id: 6,
+    title: "Kizumonogatari II: Nekketsu-hen",
+    image: "../img/live-6.jpg"
+  }
+];
