@@ -177,3 +177,25 @@ const LiveAction = [
     image: "../img/live-6.jpg"
   }
 ];
+const NewComment = [
+  {
+    id: 1,
+    title: "The Seven Deadly Sins: Wrath of the Gods",
+    image: "../img/comment-1.jpg"
+  },
+  {
+    id: 2,
+    title: "Shirogane Tamashii hen Kouhan sen",
+    image: "../img/comment-2.jpg"
+  },
+  {
+    id: 3,
+    title: "Kizumonogatari III: Reiket su-hen",
+       image: "../img/comment-3.jpg"
+  },
+  {
+    id: 4,
+    title: "Monogatari Series: Second Season",
+    image: "../img/comment-4.jpg"
+  }
+];
